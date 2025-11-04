@@ -1,0 +1,1291 @@
+[
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PABC",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Gly-Gly-Phe-Gly-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Gly-Gly-Phe-Gly",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PEG4-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)COCCOCCOCCNC(=O)CSSCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG4",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)COCCOCCOCCNC(=O)CSSCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Gly-Gly-Phe-Gly-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCC(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)NCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Gly-Gly-Phe-Gly",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG4-Disulfide-SS-PEG3-PAB-OH",
+    "smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Disulfide-SS",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PABC-PNP",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCC[SH](SCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Disulfide-SS-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Disulfide-SS",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PEG3-PABC-PNP",
+    "smiles": "O=C(CCOCCNC(=O)[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1OC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PEG3",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "O=C(CCOCCNC(=O)[C@H]1O[C@H](CO(*))[C@@H](O)[C@H](O)[C@@H]1OC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Disulfide-SS-PABC-PNP",
+    "smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Disulfide-SS",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCC[SH](SCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Phe-Lys-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)[C@H](CCCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)NC(=O)[C@@H](N)Cc2ccccc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Phe-Lys",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)[C@H](CCCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)NC(=O)[C@@H](N)Cc2ccccc2)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Gly-Gly-Phe-Gly-PAB-OH",
+    "smiles": "O=C(CNC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)NCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Gly-Gly-Phe-Gly",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Gly-Gly-Phe-Gly-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Gly-Gly-Phe-Gly",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Disulfide-SS-PEG4-PAB-OH",
+    "smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Disulfide-SS",
+      "PEG4",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O(*))[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Phe-Lys-PABC-PNP",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Phe-Lys",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Ala-Ala-PAB-OH",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Ala-Ala",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Val-Cit-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Val-Cit",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Phe-Lys-PAB-OH",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Phe-Lys",
+      "PAB-OH"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Ala-Ala-PEG4-PAB-OH",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Ala-Ala",
+      "PEG4",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG4-β-glucuronide-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "β-glucuronide",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PABC-PNP",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PABC-PNP"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Phe-Lys-PEG3-PAB-OH",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Phe-Lys",
+      "PEG3",
+      "PAB-OH"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PAB-OH",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PEG3-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG4-Phe-Lys-PAB-OH",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Phe-Lys",
+      "PAB-OH"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Ala-Ala-PABC",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Ala-Ala",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Gly-Gly-Phe-Gly-PABC-PNP",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCC(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)NCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Gly-Gly-Phe-Gly",
+      "PABC-PNP"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PEG3-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1OC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PEG3",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(CCOCCNC(=O)[C@H]1O[C@H](CO(*))[C@@H](O)[C@H](O)[C@@H]1OC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-β-glucuronide-PEG4-PAB-OH",
+    "smiles": "O=C(COCCOCCOCCNC(=O)[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1OC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "β-glucuronide",
+      "PEG4",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(COCCOCCOCCNC(=O)[C@H]1O[C@H](CO(*))[C@@H](O)[C@H](O)[C@@H]1OC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Disulfide-SS-PAB-OH",
+    "smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Disulfide-SS",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)Nc1ccc(CO(*))cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)Nc1ccc(CO(*))cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-β-glucuronide-PAB-OH",
+    "smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "β-glucuronide",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O(*))[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Val-Cit-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Val-Cit",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CSSCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CSSCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PEG4-PAB-OH",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PEG4",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PEG4-PABC",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PEG4",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Disulfide-SS-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Disulfide-SS",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Disulfide-SS-PEG4-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)COCCOCCOCCNC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Disulfide-SS",
+      "PEG4",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)COCCOCCOCCNC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Gly-Gly-Phe-Gly-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Gly-Gly-Phe-Gly",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-β-glucuronide-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "β-glucuronide",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)COCCOCCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Phe-Lys-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)[C@H](CCCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)NC(=O)[C@@H](N)Cc2ccccc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Phe-Lys",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)[C@H](CCCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)NC(=O)[C@@H](N)Cc2ccccc2)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PEG4-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG4",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PABC-PNP",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O(*))[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Ala-Ala-PEG3-PABC",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Ala-Ala",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PEG3-PABC-PNP",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PEG3",
+      "PABC-PNP"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PEG3-PABC",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-β-glucuronide-PEG3-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1OC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "β-glucuronide",
+      "PEG3",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(CCOCCNC(=O)[C@H]1O[C@H](CO(*))[C@@H](O)[C@H](O)[C@@H]1OC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CSSCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CSSCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Val-Cit-PABC-PNP",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Val-Cit",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Ala-Ala-PABC-PNP",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Ala-Ala",
+      "PABC-PNP"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG4-β-glucuronide-PABC-PNP",
+    "smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "β-glucuronide",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "O=C(COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)O[C@H]1[C@@H](O(*))[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Val-Cit-PABC",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Val-Cit",
+      "PABC"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(N)=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Disulfide-SS-PEG3-PABC-PNP",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)NCCOCCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG3",
+      "PABC-PNP"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG4-Val-Cit-PEG3-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Val-Cit",
+      "PEG3",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PEG4-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)COCCOCCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PEG4",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)COCCOCCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Ala-Ala-PEG3-PAB-OH",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Ala-Ala",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Phe-Lys-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H](CCCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)NC(=O)[C@@H](N)Cc2ccccc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Phe-Lys",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H](CCCCNC(=O)CCOCCNC(=O)OCC2[C@H]3CCC#CCC[C@@H]23)NC(=O)[C@@H](N)Cc2ccccc2)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Val-Cit-PABC",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Val-Cit",
+      "PABC"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)Nc1ccc(COC(N)=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-β-glucuronide-PEG4-PAB-OH",
+    "smiles": "O=C(COCCOCCOCCNC(=O)[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1OC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "β-glucuronide",
+      "PEG4",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(COCCOCCOCCNC(=O)[C@H]1O[C@H](CO(*))[C@@H](O)[C@H](O)[C@@H]1OC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Phe-Lys-PEG3-PAB-OH",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Phe-Lys",
+      "PEG3",
+      "PAB-OH"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG4-Ala-Ala-PEG3-PAB-OH",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Ala-Ala",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG3-Phe-Lys-PEG4-PAB-OH",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Phe-Lys",
+      "PEG4",
+      "PAB-OH"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1)(*)"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Val-Cit-PEG4-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Val-Cit",
+      "PEG4",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Gly-Gly-Phe-Gly-PEG3-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCC(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)NCC(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Gly-Gly-Phe-Gly",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "BCN-chloro-PEG4-Ala-Ala-PEG4-PABC",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG4",
+      "Ala-Ala",
+      "PEG4",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Val-Cit-PEG3-PABC",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Val-Cit",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(COC(N)=O)cc1"
+  },
+  {
+    "name": "BCN-chloro-PEG3-Val-Cit-PEG3-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "BCN-chloro",
+      "PEG3",
+      "Val-Cit",
+      "PEG3",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Ala-Ala-PABC",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Ala-Ala",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Gly-Gly-Phe-Gly-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Gly-Gly-Phe-Gly",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CNC(=O)[C@H](Cc2ccccc2)NC(=O)CNC(=O)CNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Gly-Gly-Phe-Gly-PAB-OH",
+    "smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCC(=O)NCC(=O)NCC(=O)N[C@@H](Cc1ccccc1)C(=O)NCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Gly-Gly-Phe-Gly",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG4-Disulfide-SS-PEG3-PAB-OH",
+    "smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCOCCOCC(=O)NCCSSCC(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Disulfide-SS",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-Disulfide-SS-PABC-PNP",
+    "smiles": "O=C(CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCSSCC(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Disulfide-SS",
+      "PABC-PNP"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG4-Disulfide-SS-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Disulfide-SS",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CSSCCNC(=O)COCCOCCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG3-β-glucuronide-PAB-OH",
+    "smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCC(=O)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "β-glucuronide",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCC(=O)O[C@H]1[C@@H](O(*))[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG4-Ala-Ala-PAB-OH",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Ala-Ala",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-Val-Cit-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Val-Cit",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Phe-Lys-PAB-OH",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Phe-Lys",
+      "PAB-OH"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG4-β-glucuronide-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)COCCOCCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "β-glucuronide",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)COCCOCCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Ala-Ala-PABC-PNP",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Ala-Ala",
+      "PABC-PNP"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-β-glucuronide-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "β-glucuronide",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Ala-Ala-PAB-OH",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Ala-Ala",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-Disulfide-SS-PEG3-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCSSCC(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG4-Phe-Lys-PAB-OH",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Phe-Lys",
+      "PAB-OH"
+    ],
+    "starred_smiles": "N([C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCNC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG3-β-glucuronide-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "β-glucuronide",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2OC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG4-Ala-Ala-PABC",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Ala-Ala",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-β-glucuronide-PEG3-PAB-OH",
+    "smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCC(=O)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "β-glucuronide",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG4-Disulfide-SS-PAB-OH",
+    "smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCOCCOCC(=O)NCCSSCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Disulfide-SS",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-Disulfide-SS-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCSSCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Disulfide-SS",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG4-β-glucuronide-PAB-OH",
+    "smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCOCCOCC(=O)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "β-glucuronide",
+      "PAB-OH"
+    ],
+    "starred_smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCOCCOCC(=O)O[C@H]1[C@@H](O(*))[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG4-Val-Cit-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Val-Cit",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(CO)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Disulfide-SS-PEG3-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CSSCCNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CCOCCNC(=O)CSSCCNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Ala-Ala-PEG4-PAB-OH",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Ala-Ala",
+      "PEG4",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-Ala-Ala-PEG4-PABC",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Ala-Ala",
+      "PEG4",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCOCCOCC(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Phe-Lys-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)[C@H](CCCCNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)NC(=O)[C@@H](N)Cc2ccccc2)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Phe-Lys",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)[C@H](CCCCNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)NC(=O)[C@@H](N)Cc2ccccc2)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Disulfide-SS-PEG4-PAB-OH",
+    "smiles": "O=C(CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCSSCC(=O)NCCOCCOCCOCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Disulfide-SS",
+      "PEG4",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-β-glucuronide-PABC-PNP",
+    "smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCC(=O)O[C@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1",
+    "cleavage_type": "glycosidase",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "β-glucuronide",
+      "PABC-PNP"
+    ],
+    "starred_smiles": "O=C(CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)NCCOCCC(=O)O[C@H]1[C@@H](O(*))[C@H](O)[C@@H](CO)O[C@@H]1C(=O)Nc1ccc(COC(=O)Oc2ccc([N+](=O)[O-])cc2)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG4-Ala-Ala-PEG3-PABC",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Ala-Ala",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Ala-Ala-PEG3-PABC",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Ala-Ala",
+      "PEG3",
+      "PABC"
+    ],
+    "starred_smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(COC(N(*))=O)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Disulfide-SS-PABC",
+    "smiles": "NC(=O)OCc1ccc(NC(=O)CSSCCNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1",
+    "cleavage_type": "disulfide",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Disulfide-SS",
+      "PABC"
+    ],
+    "starred_smiles": "N(C(=O)OCc1ccc(NC(=O)CSSCCNC(=O)CCOCCNC(=O)CCC(=O)N2Cc3ccccc3C#Cc3ccccc32)cc1)(*)"
+  },
+  {
+    "name": "DBCO-acid-PEG4-Val-Cit-PABC",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Val-Cit",
+      "PABC"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(COC(N)=O)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG3-Ala-Ala-PEG3-PAB-OH",
+    "smiles": "C[C@H](NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Ala-Ala",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-Val-Cit-PABC",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(COC(N)=O)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Val-Cit",
+      "PABC"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)Nc1ccc(COC(N)=O)cc1"
+  },
+  {
+    "name": "DBCO-acid-PEG4-Ala-Ala-PEG3-PAB-OH",
+    "smiles": "C[C@H](NC(=O)COCCOCCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)N[C@@H](C)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG4",
+      "Ala-Ala",
+      "PEG3",
+      "PAB-OH"
+    ]
+  },
+  {
+    "name": "DBCO-acid-PEG3-Val-Cit-PEG3-PAB-OH",
+    "smiles": "CC(C)[C@H](N)C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1",
+    "cleavage_type": "enzyme",
+    "components": [
+      "DBCO-acid",
+      "PEG3",
+      "Val-Cit",
+      "PEG3",
+      "PAB-OH"
+    ],
+    "starred_smiles": "CC(C)[C@H](N(*))C(=O)N[C@@H](CCCNC(=O)NC(=O)CCOCCNC(=O)CCC(=O)N1Cc2ccccc2C#Cc2ccccc21)C(=O)NCCOCCC(=O)Nc1ccc(CO)cc1"
+  }
+]

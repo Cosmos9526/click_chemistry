@@ -1,0 +1,44 @@
+{
+    "best_linker": {
+        "name": "BCN-chloro-PEG3-Disulfide-SS-PAB-OH",
+        "cleavage_type": "disulfide",
+        "components": [
+            "BCN-chloro",
+            "PEG3",
+            "Disulfide-SS",
+            "PAB-OH"
+        ],
+        "overall_score": 0.232,
+        "qed": 0.036,
+        "best_combined_smiles": "O=C(CCOCCNC(=O)OCC1[C@H]2CCC#CCC[C@@H]12)NCCSSCC(=O)Nc1ccc(COO[C@@H]2C[C@H]3[C@]4(C=C2)CCN(C)Cc2c4c(c(OC)cc2)O3)cc1"
+    },
+    "final_smiles": "N(n1c2c(nn1)CC[C@@H]1C(COC(NCCOCCC(=O)NCCSSCC(=O)Nc3ccc(COO[C@@H]4C[C@H]5[C@]6(C=C4)CCN(C)Cc4c6c(c(OC)cc4)O5)cc3)=O)[C@@H]1CC2)CCCC[C@H](NC([C@@H](NC([C@@H](NC([C@@H](N)Cc1cnc[nH]1)=O)Cc1cnc[nH]1)=O)Cc1cnc[nH]1)=O)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)O",
+    "final_properties": {
+        "MolecularWeight": 2133.424,
+        "LogP": 0.339,
+        "QED": 0.008,
+        "TPSA": 714.22,
+        "HeavyAtomCount": 152,
+        "SAScore": 31.2,
+        "AvgPartialCharge": -0.062,
+        "NumRotatableBonds": 59,
+        "NumHDonors": 22,
+        "NumHAcceptors": 34,
+        "RingCount": 16,
+        "FractionCSP3": 0.469,
+        "ExactMolWt": 2131.927,
+        "MolMR": 545.845,
+        "NumValenceElectrons": 808,
+        "NumAromaticRings": 11,
+        "BioavailabilityScore": 0.0,
+        "StabilityScore": 0.017,
+        "NormLogP": 0.668,
+        "NormTPSA": 0.0,
+        "NormSAScore": 0.0,
+        "NormFractionCSP3": 0.469,
+        "NormMolecularWeight": 0.0,
+        "OverallScore": 0.145
+    },
+    "treatment_input": "[H][C@]12C[C@@H](O)C=C[C@]11CCN(C)CC3=C1C(O2)=C(OC)C=C3",
+    "nanobody_tag": "N[C@@]([H])(CC1=CN=C-N1)C(=O)N[C@@]([H])(CC1=CN=C-N1)C(=O)N[C@@]([H])(CC1=CN=C-N1)C(=O)N[C@@]([H])(CCCCN(*))C(=O)N[C@@]([H])(CC1=CN=C-N1)C(=O)N[C@@]([H])(CC1=CN=C-N1)C(=O)N[C@@]([H])(CC1=CN=C-N1)C(=O)..."
+}

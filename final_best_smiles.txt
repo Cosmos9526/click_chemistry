@@ -1,0 +1,1 @@
+N(n1c2c(nn1)CC[C@@H]1C(COC(NCCOCCC(=O)NCCSSCC(=O)Nc3ccc(COO[C@@H]4C[C@H]5[C@]6(C=C4)CCN(C)Cc4c6c(c(OC)cc4)O5)cc3)=O)[C@@H]1CC2)CCCC[C@H](NC([C@@H](NC([C@@H](NC([C@@H](N)Cc1cnc[nH]1)=O)Cc1cnc[nH]1)=O)Cc1cnc[nH]1)=O)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)O
